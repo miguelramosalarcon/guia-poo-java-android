@@ -1,30 +1,67 @@
-# 📘 Guía Oficial – Fundamentos de POO en Java aplicados a Android
+# 📘 Guía Oficial – Programación Orientada a Objetos en Java
+Aplicada al Desarrollo de Aplicaciones Android
 
-Esta guía está orientada a estudiantes del módulo **Desarrollo de Aplicaciones Móviles** y tiene como objetivo reforzar los fundamentos de Programación Orientada a Objetos (POO) en Java, enfocados al desarrollo en Android Studio.
+Esta guía ha sido elaborada como material académico para el módulo:
+
+**Desarrollo de Aplicaciones Móviles**
+
+Su propósito es reforzar los fundamentos de Programación Orientada a Objetos (POO) en Java, aplicados directamente al desarrollo en Android Studio.
 
 ---
 
 ## 🎯 Objetivos de la guía
 
-- Recordar la sintaxis básica de Java.
-- Comprender qué es una clase y un objeto.
-- Aplicar correctamente atributos y métodos.
-- Entender modificadores de acceso (public / private).
+Al finalizar esta guía, el estudiante será capaz de:
+
+- Comprender la estructura de una clase en Java.
+- Crear y utilizar objetos correctamente.
+- Aplicar encapsulamiento usando modificadores de acceso.
+- Comprender el concepto de abstracción.
+- Aplicar herencia para reutilización de código.
+- Entender el polimorfismo y su uso práctico.
 - Relacionar POO con el desarrollo de aplicaciones Android.
-- Preparar al estudiante para trabajar con SQLite y CRUD en proyectos móviles.
+- Prepararse para implementar CRUD con SQLite.
 
 ---
 
-## 📚 Contenido
+## 🧠 Fundamentos abordados
 
-1. Fundamentos de Java
-2. Programación Orientada a Objetos
-3. Encapsulamiento
-4. Constructores
-5. Métodos
-6. Aplicación práctica en Android Studio
-7. Ejercicios nivel básico
-8. Ejercicios nivel intermedio
+La guía desarrolla los cuatro pilares de la Programación Orientada a Objetos:
+
+### 1️⃣ Encapsulamiento  
+Protección y control de acceso a los datos.
+
+### 2️⃣ Abstracción  
+Enfoque en lo esencial, ocultando detalles internos.
+
+### 3️⃣ Herencia  
+Reutilización de código mediante clases derivadas.
+
+### 4️⃣ Polimorfismo  
+Capacidad de que un mismo método tenga distintos comportamientos.
+
+---
+
+## 📱 Enfoque aplicado
+
+Los ejemplos están contextualizados en el proyecto académico:
+
+**NovaServiciosApp**
+
+Donde se trabajará con:
+
+- Registro de servicios
+- Modelado de datos mediante clases
+- Persistencia en SQLite
+- Conversión de registros en objetos
+- Implementación de operaciones CRUD
+
+---
+
+## 📂 Contenido del repositorio
+
+- 📄 `conceptos-poo-java-android.md` → Desarrollo teórico con ejemplos explicados paso a paso. [Ver Guía Teórica](conceptos-poo-java-android.md)
+- 📄 `ejercicios-poo-java.md` → Actividades prácticas divididas en nivel básico e intermedio. [Ver Ejercicios Prácticos Resueltos](ejercicios-poo-java-resueltos.md)
 
 ---
 
@@ -36,29 +73,29 @@ Esta guía está orientada a estudiantes del módulo **Desarrollo de Aplicacione
 
 ---
 
-## 🚀 Proyecto aplicado
+## 🚀 Importancia para Android
 
-Los ejemplos están contextualizados en el proyecto:
-
-**NovaServiciosApp**
-
-Donde se trabajará con:
-- Registro de servicios
-- Modelo de datos
-- Persistencia en SQLite
-- Estructura orientada a objetos
-
----
-
-## 📌 Importante
-
-Toda aplicación Android está basada en Programación Orientada a Objetos.
+En Android:
 
 - Cada Activity es una clase.
 - Cada botón es un objeto.
-- Cada registro en base de datos será modelado como objeto.
+- Cada registro de base de datos será representado como objeto.
+- Los eventos (onClick, onCreate) aplican polimorfismo.
+- Las clases base y abstractas aplican abstracción.
 
-Comprender estos fundamentos permitirá desarrollar aplicaciones escalables y profesionales.
+Comprender POO no es opcional.  
+Es la base de toda aplicación profesional.
+
+---
+
+## 📌 Enfoque pedagógico
+
+Esta guía está diseñada para:
+
+- Reforzar conceptos fundamentales.
+- Preparar al estudiante para arquitectura de aplicaciones móviles.
+- Evitar aprendizaje basado en copia de código.
+- Fomentar pensamiento estructurado y profesional.
 
 ---
 
